@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(255, 252, 247);
+}
+.navbar{
+    background-color: rgb(79, 125, 36);
+    border-radius: 0 0 10px 10px;
+}
+.textnav{
+    color: black;
+}
+.maintextnav{
+    color: white;
+}
+.buttonnav{
+    background-color: rgba(222, 255, 172, 0.44);
+    width: 90px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+    border-radius: 8px;
+}
+.accordion{
+    margin-top: 10%;
+    width: 80%;
+    margin-left: 10%;
+}
+.carousel-control-prev-icon{
+    background-image: url(rowicon.png);
+}
+.carousel-control-next-icon{
+    background-image: url(righticonremove.png);
+}
+
+@media (max-width: 470px) {
+    .height{
+        height: 250px;
+    }
+}
