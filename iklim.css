@@ -21,7 +21,7 @@ body{
     border-radius: 8px;
 }
 .wrapweather{
-    height: 250px;
+    height: 290px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -29,9 +29,12 @@ body{
     gap: 15px;
 }
 .firstweather{
-    background-color: blue;
+    background-color: rgb(252, 247, 240);
     height: 150px;
     width: 100px;
+    border-radius: 10px;
+    padding-top: 5px;
+    margin-top: -2px;
 }
 .secondweather{
     background-color: rgb(153, 0, 255);
@@ -44,7 +47,6 @@ body{
     width: 100px;
 }
 .accordion{
-    margin-top: 5%;
     width: 100%;
     padding: 5%;
 }
@@ -57,5 +59,18 @@ body{
 }
 .mountain{
     width: 100%;
-    margin-top: -10%;
+    margin-top: -20%;
+}
+.wrapfirstweather{
+    background-color:  rgb(79, 125, 36);
+    height: 156px;
+    width: 105px;
+    border-radius: 10px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+.texth6weat{
+    margin-top: -75%;
+    text-align: center;
 }
