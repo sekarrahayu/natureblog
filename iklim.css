@@ -20,41 +20,42 @@ body{
     padding: 7px;
     border-radius: 8px;
 }
+.wrapweather{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-block: 15%;
+    gap: 15px;
+}
+.firstweather{
+    background-color: blue;
+    height: 150px;
+    width: 100px;
+}
+.secondweather{
+    background-color: rgb(153, 0, 255);
+    height: 150px;
+    width: 100px;
+}
+.thirthweather{
+    background-color: rgb(255, 0, 242);
+    height: 150px;
+    width: 100px;
+}
 .accordion{
     margin-top: 5%;
     width: 100%;
     padding: 5%;
 }
-.carousel-control-prev-icon{
-    background-image: url(rowicon.png);
-}
-.carousel-control-next-icon{
-    background-image: url(righticonremove.png);
+.widthaccor{
+    width: 100%;
 }
 .coloraccor{
     background-color: rgb(79, 125, 36);
     color: white;
 }
-.widthaccor{
-    width: 100%;
-}
 .mountain{
     width: 100%;
     margin-top: -10%;
-}
-.height{
-    height: 250px;
-}
-.imgaccorwrap{
-    height: 160px;
-    width: 150px;
-}
-.wrapbellowaccor{
-    display: flex;
-    justify-content: center;
-    padding-inline: 10px;
-}
-.textaccorwrap{
-    height: 100%;
-    width: 250px;
 }
