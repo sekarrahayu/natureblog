@@ -1,76 +1,81 @@
-body{
-    background-color: rgb(250, 238, 219);
+@media (max-width: 447px){
+    body{
+        background-color: rgb(250, 238, 219);
+    }
+    .navbar{
+        background-color: rgb(79, 125, 36);
+        border-radius: 0 0 10px 10px;
+    }
+    .textnav{
+        background-color: rgba(255, 255, 255, 0.532);
+    }
+    .maintextnav{
+        color: white;
+    }
+    .buttonnav{
+        background-color: rgba(222, 255, 172, 0.44);
+        width: 90px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        padding: 7px;
+        border-radius: 8px;
+    }
+    .wrapweather{
+        height: 290px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-block: 15%;
+        gap: 15px;
+    }
+    .firstweather{
+        background-color: rgb(252, 247, 240);
+        height: 150px;
+        width: 100px;
+        border-radius: 10px;
+        padding-top: 5px;
+        margin-top: -2px;
+    }
+    .secondweather{
+        background-color: rgb(153, 0, 255);
+        height: 150px;
+        width: 100px;
+    }
+    .thirthweather{
+        background-color: rgb(255, 0, 242);
+        height: 150px;
+        width: 100px;
+    }
+    .accordion{
+        width: 100%;
+        padding: 5%;
+    }
+    .widthaccor{
+        width: 100%;
+    }
+    .coloraccor{
+        background-color: rgb(79, 125, 36);
+        color: white;
+    }
+    .mountain{
+        width: 100%;
+        margin-top: -20%;
+    }
+    .wrapfirstweather{
+        background-color:  rgb(79, 125, 36);
+        height: 156px;
+        width: 105px;
+        border-radius: 10px;
+        padding-top: 5px;
+        display: flex;
+        justify-content: center;
+    }
+    .texth6weat{
+        margin-top: -75%;
+        text-align: center;
+    }
 }
-.navbar{
-    background-color: rgb(79, 125, 36);
-    border-radius: 0 0 10px 10px;
-}
-.textnav{
-    background-color: rgba(255, 255, 255, 0.532);
-}
-.maintextnav{
-    color: white;
-}
-.buttonnav{
-    background-color: rgba(222, 255, 172, 0.44);
-    width: 90px;
-    height: 35px;
-    display: flex;
-    justify-content: center;
-    padding: 7px;
-    border-radius: 8px;
-}
-.wrapweather{
-    height: 290px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding-block: 15%;
-    gap: 15px;
-}
-.firstweather{
-    background-color: rgb(252, 247, 240);
-    height: 150px;
-    width: 100px;
-    border-radius: 10px;
-    padding-top: 5px;
-    margin-top: -2px;
-}
-.secondweather{
-    background-color: rgb(153, 0, 255);
-    height: 150px;
-    width: 100px;
-}
-.thirthweather{
-    background-color: rgb(255, 0, 242);
-    height: 150px;
-    width: 100px;
-}
-.accordion{
-    width: 100%;
-    padding: 5%;
-}
-.widthaccor{
-    width: 100%;
-}
-.coloraccor{
-    background-color: rgb(79, 125, 36);
-    color: white;
-}
-.mountain{
-    width: 100%;
-    margin-top: -20%;
-}
-.wrapfirstweather{
-    background-color:  rgb(79, 125, 36);
-    height: 156px;
-    width: 105px;
-    border-radius: 10px;
-    padding-top: 5px;
-    display: flex;
-    justify-content: center;
-}
-.texth6weat{
-    margin-top: -75%;
-    text-align: center;
+@media (min-width: 448px) and (max-width: 1024px){
+    
 }
