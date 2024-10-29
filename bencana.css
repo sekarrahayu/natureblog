@@ -1,68 +1,149 @@
-body{
-    background-color: rgb(250, 238, 219);
+@media (max-width: 850px){
+    body{
+        background-color: rgb(250, 238, 219);
+    }
+    .navbar{
+        background-color: rgb(79, 125, 36);
+        border-radius: 0 0 10px 10px;
+    }
+    .textnav{
+        background-color: rgba(255, 255, 255, 0.532);
+    }
+    .maintextnav{
+        color: white;
+    }
+    .buttonnav{
+        background-color: rgba(222, 255, 172, 0.44);
+        width: 90px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        padding: 7px;
+        border-radius: 8px;
+    }
+    .mainbencana{
+        margin-top: -5px;
+    }
+    .accordion{
+        width: 100%;
+        padding: 5%;
+    }
+    .widthaccor{
+        width: 100%;
+    }
+    .coloraccor{
+        background-color: rgb(79, 125, 36);
+        color: white;
+    }
+    .wrapboxthree{
+        padding: 5%;
+        width: 100%;
+    }
+    .boxthree{
+        background-color: rgb(79, 125, 36);
+        width: 100%;
+        height: 50px;
+        color: white;
+        text-align: center;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+    }
+    .carousel-control-prev-icon{
+        background-image: url(rowicon.png);
+    }
+    .carousel-control-next-icon{
+        background-image: url(righticonremove.png);
+    }
+    .wrapbox{
+        width: 100%;
+    }
+    .box{
+        background-color: rgb(79, 125, 36);
+        width: 100%;
+        height: 50px;
+        color: white;
+        text-align: center;
+        border-radius: 6px;
+        margin-top: 10%;
+    }
+    .text1{
+        margin-top: 1.5%;
+    }
 }
-.navbar{
-    background-color: rgb(79, 125, 36);
-    border-radius: 0 0 10px 10px;
-}
-.textnav{
-    background-color: rgba(255, 255, 255, 0.532);
-}
-.maintextnav{
-    color: white;
-}
-.buttonnav{
-    background-color: rgba(222, 255, 172, 0.44);
-    width: 90px;
-    height: 35px;
-    display: flex;
-    justify-content: center;
-    padding: 7px;
-    border-radius: 8px;
-}
-.mainbencana{
-    width: 100%;
-    height: 230px;
-    margin-top: -3%;
-}
-.accordion{
-    width: 100%;
-    padding: 5%;
-}
-.widthaccor{
-    width: 100%;
-}
-.coloraccor{
-    background-color: rgb(79, 125, 36);
-    color: white;
-}
-.wrapboxthree{
-    padding: 5%;
-    width: 100%;
-}
-.boxthree{
-    background-color: rgb(79, 125, 36);
-    width: 100%;
-    height: 50px;
-    color: white;
-    text-align: center;
-    border-radius: 8px;
-}
-.carousel-control-prev-icon{
-    background-image: url(rowicon.png);
-}
-.carousel-control-next-icon{
-    background-image: url(righticonremove.png);
-}
-.wrapbox{
-    width: 100%;
-}
-.box{
-    background-color: rgb(79, 125, 36);
-    width: 100%;
-    height: 50px;
-    color: white;
-    text-align: center;
-    border-radius: 6px;
-    margin-top: 10%;
+@media (min-width: 851px){
+    body{
+        background-color: rgb(250, 238, 219);
+    }
+    .navbar{
+        background-color: rgb(79, 125, 36);
+        border-radius: 0 0 10px 10px;
+    }
+    .textnav{
+        background-color: rgba(255, 255, 255, 0.532);
+    }
+    .maintextnav{
+        color: white;
+    }
+    .buttonnav{
+        background-color: rgba(222, 255, 172, 0.44);
+        width: 90px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        padding: 7px;
+        border-radius: 8px;
+    }
+    .mainbencana{
+        margin-top: -5px;
+        height: 550px;
+    }
+    .accordion{
+        width: 100%;
+        padding: 5%;
+    }
+    .widthaccor{
+        width: 100%;
+    }
+    .coloraccor{
+        background-color: rgb(79, 125, 36);
+        color: white;
+        height: 60px;
+    }
+    .wrapboxthree{
+        padding: 5%;
+        width: 100%;
+    }
+    .boxthree{
+        background-color: rgb(79, 125, 36);
+        width: 100%;
+        height: 60px;
+        color: white;
+        text-align: center;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        margin-top: -8%;
+    }
+    .carousel-control-prev-icon{
+        background-image: url(rowicon.png);
+    }
+    .carousel-control-next-icon{
+        background-image: url(righticonremove.png);
+    }
+    .wrapbox{
+        width: 100%;
+    }
+    .box{
+        background-color: rgb(79, 125, 36);
+        width: 100%;
+        height: 50px;
+        color: white;
+        text-align: center;
+        border-radius: 6px;
+        margin-top: 10%;
+    }
+    .text1{
+        margin-top: 15px;
+    }
 }
