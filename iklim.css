@@ -191,7 +191,7 @@
     }
     .mountain{
         width: 100%;
-        margin-top: -20%;
+        margin-top: -25%;
     }
     .wrapfirstweather{
         background-color:  rgb(79, 125, 36);
@@ -213,5 +213,84 @@
         height: 200px;
         padding: 20px;
         font-size: 20px;
+    }
+}
+@media (min-width: 1025px){
+    body{
+        background-color: rgb(250, 238, 219);
+    }
+    .navbar{
+        background-color: rgb(79, 125, 36);
+        border-radius: 0 0 10px 10px;
+    }
+    .textnav{
+        background-color: rgba(255, 255, 255, 0.532);
+    }
+    .maintextnav{
+        color: white;
+    }
+    .buttonnav{
+        background-color: rgba(222, 255, 172, 0.44);
+        width: 90px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        padding: 7px;
+        border-radius: 8px;
+    }
+    .wrapweather{
+        height: 300px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-block: 8%;
+        gap: 10%;
+    }
+    .firstweather{
+        background-color: rgb(252, 247, 240);
+        height: 273px;
+        width: 180px;
+        border-radius: 10px;
+        padding-top: 5px;
+        margin-top: -2px;
+    }
+    .accordion{
+        width: 100%;
+        padding: 5%;
+    }
+    .widthaccor{
+        width: 100%;
+    }
+    .coloraccor{
+        background-color: rgb(79, 125, 36);
+        color: white;
+        height: 100px;
+        font-size: 20px;
+        font-size: 25px;
+    }
+    .mountain{
+        width: 100%;
+        margin-top: -25%;
+    }
+    .wrapfirstweather{
+        background-color:  rgb(79, 125, 36);
+        height: 280px;
+        width: 190px;
+        border-radius: 10px;
+        padding-top: 5px;
+        display: flex;
+        justify-content: center;
+    }
+    .texth6weat{
+        margin-top: -55%;
+        text-align: center;
+    }
+    .smrng{
+        margin-left: 13px;
+    }
+    .bellowsquare{
+        height: 200px;
+        padding: 20px;
+        font-size: 25px;
     }
 }
