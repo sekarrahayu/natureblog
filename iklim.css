@@ -7,7 +7,7 @@
         border-radius: 0 0 10px 10px;
     }
     .textnav{
-        background-color: rgba(255, 255, 255, 0.532);
+        color: rgb(255, 255, 255);
     }
     .maintextnav{
         color: white;
@@ -65,6 +65,10 @@
         margin-top: -75%;
         text-align: center;
     }
+    .logo{
+        height: 50px;
+        width: 50px;
+    }
 }
 @media (min-width: 531px) and (max-width: 700px){
     body{
@@ -75,7 +79,7 @@
         border-radius: 0 0 10px 10px;
     }
     .textnav{
-        background-color: rgba(255, 255, 255, 0.532);
+        color: rgb(255, 255, 255);
     }
     .maintextnav{
         color: white;
@@ -136,6 +140,10 @@
     .smrng{
         margin-left: 10px;
     }
+    .logo{
+        height: 60px;
+        width: 60px;
+    }
 }
 @media (min-width: 700px) and (max-width: 1024px){
     body{
@@ -146,7 +154,7 @@
         border-radius: 0 0 10px 10px;
     }
     .textnav{
-        background-color: rgba(255, 255, 255, 0.532);
+        color: rgb(255, 255, 255);
     }
     .maintextnav{
         color: white;
@@ -214,6 +222,10 @@
         padding: 20px;
         font-size: 20px;
     }
+    .logo{
+        height: 70px;
+        width: 70px;
+    }
 }
 @media (min-width: 1025px){
     body{
@@ -224,7 +236,7 @@
         border-radius: 0 0 10px 10px;
     }
     .textnav{
-        background-color: rgba(255, 255, 255, 0.532);
+        color: rgb(255, 255, 255);
     }
     .maintextnav{
         color: white;
@@ -292,5 +304,9 @@
         height: 200px;
         padding: 20px;
         font-size: 25px;
+    }
+    .logo{
+        height: 80px;
+        width: 80px;
     }
 }

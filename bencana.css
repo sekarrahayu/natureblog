@@ -7,7 +7,7 @@
         border-radius: 0 0 10px 10px;
     }
     .textnav{
-        background-color: rgba(255, 255, 255, 0.532);
+        color: rgb(255, 255, 255);
     }
     .maintextnav{
         color: white;
@@ -68,7 +68,11 @@
         margin-top: 10%;
     }
     .text1{
-        margin-top: 1.5%;
+        margin-top: 3px;
+    }
+    .logo{
+        height: 50px;
+        width: 50px;
     }
 }
 @media (min-width: 851px){
@@ -80,7 +84,7 @@
         border-radius: 0 0 10px 10px;
     }
     .textnav{
-        background-color: rgba(255, 255, 255, 0.532);
+        color: rgb(255, 255, 255);
     }
     .maintextnav{
         color: white;
@@ -145,5 +149,9 @@
     }
     .text1{
         margin-top: 15px;
+    }
+    .logo{
+        height: 70px;
+        width: 70px;
     }
 }
