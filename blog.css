@@ -9,6 +9,9 @@
     .textnav{
         color: rgb(255, 255, 255);
     }
+    .textnav:hover{
+        color: rgb(9, 161, 9);
+    }
     .maintextnav{
         color: white;
     }
@@ -55,9 +58,10 @@
         height: 100%;
         width: 250px;
     }
-    .logo{
-        height: 50px;
-        width: 50px;
+   .logo{
+        height: 120px;
+        width: 220px;
+        margin-left: -30px;
     }
 }
 @media (min-width: 448px) and (max-width: 1024px) {
@@ -70,6 +74,9 @@
     }
     .textnav{
         color: rgb(255, 255, 255);
+    }
+    .textnav:hover{
+        color: rgb(9, 161, 9);
     }
     .maintextnav{
         color: white;
@@ -121,8 +128,9 @@
         width: 250px;
     }
     .logo{
-        height: 60px;
-        width: 60px;
+        height: 160px;
+        width: 280px;
+        margin-left: -30px;
     }
 }
 @media (min-width: 1025px){
@@ -132,10 +140,13 @@
     .navbar{
         background-color: rgb(79, 125, 36);
         border-radius: 0 0 10px 10px;
-        height: 80px;
+        height: 100px;
     }
     .textnav{
         color: rgb(255, 255, 255);
+    }
+    .textnav:hover{
+        color: rgb(9, 161, 9);
     }
     .maintextnav{
         color: white;
@@ -197,7 +208,8 @@
         height: 100vh;
     }
     .logo{
-        height: 60px;
-        width: 60px;
+        height: 160px;
+        width: 280px;
+        margin-left: -30px;
     }
 }
