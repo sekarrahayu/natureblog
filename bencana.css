@@ -244,4 +244,7 @@
         width: 280px;
         margin-left: -30px;
     }
+    .padding{
+        padding: 80px;
+    }
 }
