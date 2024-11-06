@@ -78,6 +78,10 @@
         width: 280px;
         margin-left: -30px;
     }
+    .mountain{
+        width: 100%;
+        margin-top: 100px;
+    }
 }
 @media (min-width: 851px) and (max-width: 990px){
     body{
@@ -139,18 +143,6 @@
     .carousel-control-next-icon{
         background-image: url(righticonremove.png);
     }
-    .wrapbox{
-        width: 100%;
-    }
-    .box{
-        background-color: rgb(79, 125, 36);
-        width: 100%;
-        height: 50px;
-        color: white;
-        text-align: center;
-        border-radius: 6px;
-        margin-top: 10%;
-    }
     .text1{
         margin-top: 3px;
     }
@@ -158,6 +150,10 @@
         height: 160px;
         width: 280px;
         margin-left: -30px;
+    }
+    .mountain{
+        width: 100%;
+        margin-top: 100px;
     }
 }
 @media (min-width: 991px){
@@ -224,18 +220,6 @@
     .carousel-control-next-icon{
         background-image: url(righticonremove.png);
     }
-    .wrapbox{
-        width: 100%;
-    }
-    .box{
-        background-color: rgb(79, 125, 36);
-        width: 100%;
-        height: 50px;
-        color: white;
-        text-align: center;
-        border-radius: 6px;
-        margin-top: 10%;
-    }
     .text1{
         margin-top: 15px;
     }
@@ -246,5 +230,9 @@
     }
     .padding{
         padding: 80px;
+    }
+    .mountain{
+        width: 100%;
+        margin-top: 100px;
     }
 }
