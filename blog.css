@@ -4,7 +4,6 @@
     }
     .navbar{
         background-color: rgb(79, 125, 36);
-        border-radius: 0 0 10px 10px;
     }
     .textnav{
         color: rgb(255, 255, 255);
@@ -65,7 +64,7 @@
         margin-left: -30px;
     }
     .imgjaga{
-        height: 350px;
+        height: 250px;
         width: 100%px;
     }
     .wrapimgjaga{
@@ -73,10 +72,11 @@
         z-index: 99;
         position: relative;
         display: flex;
-        gap: 15px;
+        gap: 20px;
         flex-direction: column;
         align-items: center;
-        padding: 20px;
+        padding-inline: 50px;
+        padding-block: 15px;
     }
     .height{
         height: 200px;
@@ -86,6 +86,28 @@
         transform: scale(1.1);
         transition: all 0.3s;
     }
+    .address{
+        background-color: white;
+        width: 100%;
+    }
+    .logomutu{
+        width: 60px;
+    }
+    .logosmkhebat{
+        width: 60px;
+    }
+    .wraplogobottom{
+        display: flex;
+    }
+    .log{
+        padding: 10px;
+    }
+    .linkalamat{
+        font-size: 10px;
+    }
+    .logoalamat{
+        width: 20px;
+    }
 }
 @media (min-width: 448px) and (max-width: 1190px) {
     body{
@@ -93,7 +115,6 @@
     }
     .navbar{
         background-color: rgb(79, 125, 36);
-        border-radius: 0 0 10px 10px;
     }
     .textnav{
         color: rgb(255, 255, 255);
@@ -176,6 +197,32 @@
         transform: scale(1.1);
         transition: all 0.3s;
     }
+    .address{
+        background-color: white;
+        width: 100%;
+    }
+    .logomutu{
+        width: 60px;
+    }
+    .logosmkhebat{
+        width: 60px;
+    }
+    .wraplogobottom{
+        display: flex;
+        padding: 20px;
+    }
+    .log{
+        padding: 10px;
+    }
+    .linkalamat{
+        font-size: 15px;
+    }
+    .logoalamat{
+        width: 20px;
+    }
+    .paddingcolumn{
+        padding: 15px;
+    }
 }
 @media (min-width: 1191px){
     body{
@@ -183,7 +230,6 @@
     }
     .navbar{
         background-color: rgb(79, 125, 36);
-        border-radius: 0 0 10px 10px;
         height: 100px;
     }
     .textnav{
@@ -274,5 +320,30 @@
     .imgjaga:hover{
         transform: scale(1.1);
         transition: all 0.3s;
+    }
+    .address{
+        background-color: white;
+        width: 100%;
+    }
+    .logomutu{
+        width: 90px;
+    }
+    .logosmkhebat{
+        width: 90px;
+    }
+    .wraplogobottom{
+        display: flex;
+    }
+    .log{
+        padding: 10px;
+    }
+    .linkalamat{
+        font-size: 20px;
+    }
+    .logoalamat{
+        width: 20px;
+    }
+    .paddingcolumn{
+        padding: 15px;
     }
 }

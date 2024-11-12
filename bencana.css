@@ -4,7 +4,6 @@
     }
     .navbar{
         background-color: rgb(79, 125, 36);
-        border-radius: 0 0 10px 10px;
     }
     .textnav{
         color: rgb(255, 255, 255);
@@ -82,6 +81,31 @@
         width: 100%;
         margin-top: 100px;
     }
+    .address{
+        background-color: white;
+        width: 100%;
+    }
+    .logomutu{
+        width: 60px;
+    }
+    .logosmkhebat{
+        width: 60px;
+    }
+    .wraplogobottom{
+        display: flex;
+    }
+    .log{
+        padding: 10px;
+    }
+    .linkalamat{
+        font-size: 10px;
+    }
+    .logoalamat{
+        width: 20px;
+    }
+    .paddingcolumn{
+        padding: 15px;
+    }
 }
 @media (min-width: 851px) and (max-width: 990px){
     body{
@@ -89,7 +113,6 @@
     }
     .navbar{
         background-color: rgb(79, 125, 36);
-        border-radius: 0 0 10px 10px;
     }
     .textnav{
         color: rgb(255, 255, 255);
@@ -155,6 +178,31 @@
         width: 100%;
         margin-top: 100px;
     }
+    .address{
+        background-color: white;
+        width: 100%;
+    }
+    .logomutu{
+        width: 90px;
+    }
+    .logosmkhebat{
+        width: 90px;
+    }
+    .wraplogobottom{
+        display: flex;
+    }
+    .log{
+        padding: 10px;
+    }
+    .linkalamat{
+        font-size: 18px;
+    }
+    .logoalamat{
+        width: 20px;
+    }
+    .paddingcolumn{
+        padding: 15px;
+    }
 }
 @media (min-width: 991px){
     body{
@@ -162,7 +210,6 @@
     }
     .navbar{
         background-color: rgb(79, 125, 36);
-        border-radius: 0 0 10px 10px;
         height: 100px;
     }
     .textnav{
@@ -234,5 +281,30 @@
     .mountain{
         width: 100%;
         margin-top: 100px;
+    }
+    .address{
+        background-color: white;
+        width: 100%;
+    }
+    .logomutu{
+        width: 90px;
+    }
+    .logosmkhebat{
+        width: 90px;
+    }
+    .wraplogobottom{
+        display: flex;
+    }
+    .log{
+        padding: 10px;
+    }
+    .linkalamat{
+        font-size: 20px;
+    }
+    .logoalamat{
+        width: 20px;
+    }
+    .paddingcolumn{
+        padding: 15px;
     }
 }
