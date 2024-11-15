@@ -64,7 +64,7 @@
         justify-content: center;
     }
     .texth6weat{
-        margin-top: -75%;
+        margin-top: -55%;
         text-align: center;
     }
     .logo{
@@ -96,6 +96,11 @@
     }
     .paddingcolumn{
         padding: 15px;
+    }
+    .containerr{
+        width: 100%;
+        padding-inline: 25px;
+        padding-block: 10px;
     }
 }
 @media (min-width: 531px) and (max-width: 700px){
@@ -164,7 +169,7 @@
         justify-content: center;
     }
     .texth6weat{
-        margin-top: -55%;
+        margin-top: -40%;
         text-align: center;
     }
     .smrng{
@@ -199,6 +204,10 @@
     }
     .paddingcolumn{
         padding: 15px;
+    }
+    .containerr{
+        width: 100%;
+        padding-inline: 35px;
     }
 }
 @media (min-width: 700px) and (max-width: 1024px){
@@ -269,7 +278,7 @@
         justify-content: center;
     }
     .texth6weat{
-        margin-top: -55%;
+        margin-top: -40%;
         text-align: center;
     }
     .smrng{
@@ -309,6 +318,10 @@
     }
     .paddingcolumn{
         padding: 15px;
+    }
+    .containerr{
+        width: 100%;
+        padding-inline: 50px;
     }
 }
 @media (min-width: 1025px){
@@ -381,7 +394,7 @@
         justify-content: center;
     }
     .texth6weat{
-        margin-top: -55%;
+        margin-top: -40%;
         text-align: center;
     }
     .smrng{
@@ -421,5 +434,9 @@
     }
     .paddingcolumn{
         padding: 15px;
+    }
+    .containerr{
+        width: 100%;
+        padding-inline: 70px;
     }
 }
